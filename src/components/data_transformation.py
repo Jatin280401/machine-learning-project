@@ -128,4 +128,4 @@ if __name__ == "__main__":
     test_path = os.path.join('artifacts', 'test.csv')
     transformer = DataTransformation()
     train_arr, test_arr, preprocessor_path = transformer.initiate_data_transformation(train_path, test_path)
-    print(f"Preprocessor saved at: {preprocessor_path}")
+    print(f"Preprocessor saved at: {preprocessor_path}") 
